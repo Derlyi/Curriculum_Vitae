@@ -1,0 +1,34 @@
+#t1{
+    text-align: center;
+    color: #145A32;
+}
+
+.main-nav{
+    background-color: black;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.main-nav-item{
+    display: inline-block;
+}
+
+.main-nav-item a{
+    color: #145A32;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-right: 1px solid #ffffff;
+}
+
+.main-nav-item a:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+.main-nav-item a:active{
+    background-color: black;
+    color: aqua;
+}
