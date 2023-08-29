@@ -4,8 +4,7 @@
 }
 
 .main-nav{
-    background-color: black;
-    margin: 0;
+    margin: 10px;
     list-style: none;
     padding-left: 0;
     text-align: center;
@@ -13,14 +12,18 @@
 
 .main-nav-item{
     display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #000;
+    text-align: center;
 }
 
 .main-nav-item a{
-    color: #145A32;
-    text-decoration: none;
-    padding: 10px 20px;
     display: block;
-    border-right: 1px solid #ffffff;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-right: 10px solid #ffffff;
 }
 
 .main-nav-item a:hover{
@@ -30,5 +33,5 @@
 
 .main-nav-item a:active{
     background-color: black;
-    color: aqua;
+    color: #fff;
 }
